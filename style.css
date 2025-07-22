@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    padding: 15px 25px;
+    background-color: #DD0000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.container {
+    max-width: 1414px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+/** hero section **/
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #000000;
+    margin: 80px auto 0;
+}
+
+.left-section {
+    max-width: 568px;
+    padding-left: 125px;
+}
+
+.left-section h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.left-section p {
+    color: #ffffff;
+    margin: 20px 0 30px;
+}
+
+.right-section img {
+    display: block;
+    padding: 32px 24px 0 0;
+}
+
+
+/** upcoming matches **/
+.upcoming-matches {
+    padding: 100px 0 50px;
+    display: flex;
+    gap: 55px;
+}
+
+.upcoming-matches-left {
+    max-width: 25%;
+    height: fit-content;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2) {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.upcoming-matches-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    flex: 1;
+}
+
+.upcoming-matches-right .card {
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.upcoming-matches-right .card img {
+    width: 100%;
+    height: 175px;
+    border-radius: 20px 20px 0 0;
+}
+
+.upcoming-matches-right .card .card-detail {
+    padding: 20px;
+}
+
+.card-detail .btn {
+    padding: 8px 20px;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card-detail h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 22px;
+    color: #161616;
+}
+
+.card-bottom {
+    display: flex;
+    gap: 40px;
+}
+
+
+/** footer **/
+footer {
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+}
