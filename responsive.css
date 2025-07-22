@@ -1,0 +1,75 @@
+@media screen and (max-width: 992px) {
+    /** hero section **/
+    .container {
+        margin: 0 auto;
+        max-width: 734px;
+    }
+
+    .hero-section {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .left-section {
+        max-width: 316;
+        padding: 61px 0 61px 70px;
+    }
+
+    .left-section h1 {
+        font-size: 40px;
+    }
+
+    .right-section img {
+        width: 323px;
+        height: 423px;
+    }
+
+    /** upcoming matches **/
+    .upcoming-matches {
+        padding: 70px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .upcoming-matches-left {
+        max-width: 100%;
+        padding: 0px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .upcoming-matches-left .btn {
+        font-size: 20px;
+        font-weight: 500;
+        width: 230px;
+        height: 64px;
+        padding: 0;
+    }
+
+    .upcoming-matches-left .btn:nth-child(1),
+    .upcoming-matches-left .btn:nth-child(2) {
+        border: 2px solid gray;
+    }
+
+    .upcoming-matches-right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .upcoming-matches-right .card:last-child {
+        display: none;
+    }
+
+    
+    /** footer **/
+    footer {
+        height: 345px;
+    }
+
+}
